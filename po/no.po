@@ -397,7 +397,7 @@ msgstr "Fødselsdato"
 
 #: addressbook/libebook/e-contact.c:196
 msgid "Anniversary"
-msgstr "Bryllupsdag"
+msgstr "Jubileum"
 
 #: addressbook/libebook/e-contact.c:198
 msgid "List"
@@ -755,7 +755,7 @@ msgstr "«%s» forventer at alle argumenter er strenger eller ett, og kun ett, a
 #. DESCRIPTION:
 #.
 #.
-#. $Id: no.po,v 1.10 2004/01/11 12:19:38 kmaraas Exp $
+#. $Id: no.po,v 1.11 2004/01/11 13:53:04 kmaraas Exp $
 #. $Locker:  $
 #.
 #. (C) COPYRIGHT 2001, Eric Busboom <eric@softwarestudio.org>
