@@ -6,7 +6,7 @@
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 2001.
 # Johan Dahlin <zilch.am@home.se>, 2001.
 #
-# $Id: sv.po,v 1.13 2004/03/05 19:18:36 jpr Exp $
+# $Id: sv.po,v 1.14 2004/03/25 21:56:24 menthos Exp $
 #
 msgid ""
 msgstr ""
@@ -1060,7 +1060,7 @@ msgstr "Evolutions adressboksbakände för lokal fil"
 #~ msgstr "VCard (.vcf, .gcrd)"
 
 #~ msgid "Default Sync Address:"
-#~ msgstr "Sstandardsynkroniseringsadress:"
+#~ msgstr "Standardsynkroniseringsadress:"
 
 #, fuzzy
 #~ msgid "Could not load addressbook"
