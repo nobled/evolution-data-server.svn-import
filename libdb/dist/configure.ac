@@ -1,4 +1,4 @@
-# $Id: configure.ac,v 1.1 2003/11/20 22:13:24 toshok Exp $
+# $Id: configure.ac,v 1.2 2003/11/25 22:35:10 toshok Exp $
 # Process this file with autoconf to produce a configure script.
 
 PACKAGE=db
@@ -255,6 +255,7 @@ CCC=CXX
 
 # Libtool configuration.
 AC_PROG_LIBTOOL
+AC_DISABLE_SHARED
 
 LIBTOOL="\$(SHELL) ./libtool"
 SOFLAGS="-rpath \$(libdir)"
