@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Evolution\n"
-"POT-Creation-Date: 2004-01-12 21:29-0500\n"
+"POT-Creation-Date: 2004-01-26 12:42-0500\n"
 "PO-Revision-Date: 2003-09-07 11:09+0800\n"
 "Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
@@ -106,20 +106,20 @@ msgstr "取消当前邮件操作"
 msgid "e_book_cancel: couldn't cancel"
 msgstr ""
 
-#: addressbook/libebook/e-book.c:1701
+#: addressbook/libebook/e-book.c:1731
 msgid "e_book_load_uri: Invalid source."
 msgstr ""
 
-#: addressbook/libebook/e-book.c:1709 addressbook/libebook/e-book.c:1813
+#: addressbook/libebook/e-book.c:1739 addressbook/libebook/e-book.c:1843
 #, c-format
 msgid "e_book_load_uri: no factories available for uri `%s'"
 msgstr ""
 
-#: addressbook/libebook/e-book.c:1723
+#: addressbook/libebook/e-book.c:1753
 msgid "e_book_load_uri: Could not create EBookListener"
 msgstr ""
 
-#: addressbook/libebook/e-book.c:2052
+#: addressbook/libebook/e-book.c:2082
 msgid "e_book_get_self: there was no self contact uid stored in gconf"
 msgstr ""
 
@@ -246,12 +246,10 @@ msgstr "移动电话"
 msgid "Other Phone"
 msgstr "其它电话"
 
-#. XXX
 #: addressbook/libebook/e-contact.c:134
 msgid "Other Fax"
 msgstr "其它传真"
 
-#. XXX
 #: addressbook/libebook/e-contact.c:135
 msgid "Pager"
 msgstr "寻呼机"
@@ -556,7 +554,7 @@ msgstr "列表"
 msgid "List Show Addresses"
 msgstr "列表显示地址"
 
-#: addressbook/libebook/e-contact.c:1131
+#: addressbook/libebook/e-contact.c:1147
 msgid "Unnamed List"
 msgstr "未命名的列表"
 
@@ -576,16 +574,16 @@ msgstr "生日(_Y)："
 msgid "Anniversary: %s"
 msgstr "周年(_V)："
 
-#: calendar/backends/file/e-cal-backend-file.c:176
+#: calendar/backends/file/e-cal-backend-file.c:177
 msgid "Can't save calendar data: Malformed URI."
 msgstr "无法保存日历数据：URI 格式错误。"
 
-#: calendar/backends/http/e-cal-backend-http.c:276
+#: calendar/backends/http/e-cal-backend-http.c:216
 #, fuzzy
 msgid "Bad file format."
 msgstr "时间格式："
 
-#: calendar/backends/http/e-cal-backend-http.c:281
+#: calendar/backends/http/e-cal-backend-http.c:223
 #, fuzzy
 msgid "Not a calendar."
 msgstr "没有文件夹 %s"
@@ -736,96 +734,96 @@ msgid "Undefined"
 msgstr "未定义"
 
 #. actually ask the client for authentication
-#: calendar/libecal/e-cal.c:1400
+#: calendar/libecal/e-cal.c:1449
 #, fuzzy, c-format
 msgid "Enter password for %s (user %s)"
 msgstr "%s为 %s 输入口令 (用户 %s)"
 
-#: calendar/libecal/e-cal.c:3813
+#: calendar/libecal/e-cal.c:3868
 msgid "Invalid argument"
 msgstr "无效参数"
 
-#: calendar/libecal/e-cal.c:3815
+#: calendar/libecal/e-cal.c:3870
 msgid "Backend is busy"
 msgstr ""
 
-#: calendar/libecal/e-cal.c:3817
+#: calendar/libecal/e-cal.c:3872
 #, fuzzy
 msgid "Repository is offline"
 msgstr "仓库离线"
 
-#: calendar/libecal/e-cal.c:3819
+#: calendar/libecal/e-cal.c:3874
 #, fuzzy
 msgid "No such calendar"
 msgstr "没有文件夹 %s"
 
-#: calendar/libecal/e-cal.c:3821 calendar/libecal/e-cal.c:3831
+#: calendar/libecal/e-cal.c:3876 calendar/libecal/e-cal.c:3886
 #, fuzzy
 msgid "Object not found"
 msgstr "找不到对象\n"
 
-#: calendar/libecal/e-cal.c:3823
+#: calendar/libecal/e-cal.c:3878
 #, fuzzy
 msgid "Invalid object"
 msgstr "无效目的"
 
-#: calendar/libecal/e-cal.c:3825
+#: calendar/libecal/e-cal.c:3880
 #, fuzzy
 msgid "URI not loaded"
 msgstr "没有装入 EBook\n"
 
-#: calendar/libecal/e-cal.c:3827
+#: calendar/libecal/e-cal.c:3882
 msgid "URI already loaded"
 msgstr ""
 
-#: calendar/libecal/e-cal.c:3829
+#: calendar/libecal/e-cal.c:3884
 msgid "Permission denied"
 msgstr "没有权限"
 
-#: calendar/libecal/e-cal.c:3833
+#: calendar/libecal/e-cal.c:3888
 #, fuzzy
 msgid "Object ID already exists"
 msgstr "卡片 ID 已经存在"
 
-#: calendar/libecal/e-cal.c:3835
+#: calendar/libecal/e-cal.c:3890
 msgid "Protocol not supported"
 msgstr "不支持的协议"
 
-#: calendar/libecal/e-cal.c:3837
+#: calendar/libecal/e-cal.c:3892
 #, fuzzy
 msgid "Operation has been cancelled"
 msgstr "操作已取消"
 
-#: calendar/libecal/e-cal.c:3839
+#: calendar/libecal/e-cal.c:3894
 #, fuzzy
 msgid "Could not cancel operation"
 msgstr "取消操作"
 
-#: calendar/libecal/e-cal.c:3841
+#: calendar/libecal/e-cal.c:3896
 #, fuzzy
 msgid "Authentication failed"
 msgstr "认证失败。"
 
-#: calendar/libecal/e-cal.c:3843
+#: calendar/libecal/e-cal.c:3898
 msgid "Authentication required"
 msgstr "必须认证"
 
-#: calendar/libecal/e-cal.c:3845
+#: calendar/libecal/e-cal.c:3900
 msgid "A CORBA esception has occurred"
 msgstr ""
 
-#: calendar/libecal/e-cal.c:3847
+#: calendar/libecal/e-cal.c:3902
 msgid "Unknown error"
 msgstr "未知的错误"
 
-#: calendar/libecal/e-cal.c:3849
+#: calendar/libecal/e-cal.c:3904
 msgid "No error"
 msgstr "无错误"
 
 #: calendar/libedata-cal/e-cal-backend-sexp.c:49
-#: calendar/libedata-cal/e-cal-backend-sexp.c:498
-#: calendar/libedata-cal/e-cal-backend-sexp.c:630
-#: calendar/libedata-cal/e-cal-backend-sexp.c:657
+#: calendar/libedata-cal/e-cal-backend-sexp.c:503
+#: calendar/libedata-cal/e-cal-backend-sexp.c:635
+#: calendar/libedata-cal/e-cal-backend-sexp.c:662
 #, fuzzy, c-format
 msgid "\"%s\" expects no arguments"
 msgstr "has-categories? 至少需要 1 个参数"
@@ -833,13 +831,15 @@ msgstr "has-categories? 至少需要 1 个参数"
 #: calendar/libedata-cal/e-cal-backend-sexp.c:74
 #: calendar/libedata-cal/e-cal-backend-sexp.c:162
 #: calendar/libedata-cal/e-cal-backend-sexp.c:196
-#: calendar/libedata-cal/e-cal-backend-sexp.c:695
+#: calendar/libedata-cal/e-cal-backend-sexp.c:232
+#: calendar/libedata-cal/e-cal-backend-sexp.c:700
 #, fuzzy, c-format
 msgid "\"%s\" expects one argument"
 msgstr "contains? 需要 2 个参数"
 
 #: calendar/libedata-cal/e-cal-backend-sexp.c:80
-#: calendar/libedata-cal/e-cal-backend-sexp.c:444
+#: calendar/libedata-cal/e-cal-backend-sexp.c:238
+#: calendar/libedata-cal/e-cal-backend-sexp.c:449
 #, fuzzy, c-format
 msgid "\"%s\" expects the first argument to be a string"
 msgstr "contains? 的第一个参数应该是字符串"
@@ -850,8 +850,8 @@ msgid "\"%s\" expects the first argument to be an ISO 8601 date/time string"
 msgstr "make-time 的第一个参数必须是 ISO 8601 日期/时间字符串"
 
 #: calendar/libedata-cal/e-cal-backend-sexp.c:120
-#: calendar/libedata-cal/e-cal-backend-sexp.c:277
-#: calendar/libedata-cal/e-cal-backend-sexp.c:438
+#: calendar/libedata-cal/e-cal-backend-sexp.c:282
+#: calendar/libedata-cal/e-cal-backend-sexp.c:443
 #, fuzzy, c-format
 msgid "\"%s\" expects two arguments"
 msgstr "contains? 需要 2 个参数"
@@ -859,8 +859,8 @@ msgstr "contains? 需要 2 个参数"
 #: calendar/libedata-cal/e-cal-backend-sexp.c:126
 #: calendar/libedata-cal/e-cal-backend-sexp.c:168
 #: calendar/libedata-cal/e-cal-backend-sexp.c:202
-#: calendar/libedata-cal/e-cal-backend-sexp.c:283
-#: calendar/libedata-cal/e-cal-backend-sexp.c:701
+#: calendar/libedata-cal/e-cal-backend-sexp.c:288
+#: calendar/libedata-cal/e-cal-backend-sexp.c:706
 #, fuzzy, c-format
 msgid "\"%s\" expects the first argument to be a time_t"
 msgstr "time-day-end 的第一个参数应该是 time_t"
@@ -870,39 +870,29 @@ msgstr "time-day-end 的第一个参数应该是 time_t"
 msgid "\"%s\" expects the second argument to be an integer"
 msgstr "time-add-day 的第二个参数应该是整数"
 
-#: calendar/libedata-cal/e-cal-backend-sexp.c:232
-#, fuzzy
-msgid "uid? expects 1 argument"
-msgstr "make-time 需要 1 个参数"
-
-#: calendar/libedata-cal/e-cal-backend-sexp.c:237
-#, fuzzy
-msgid "uid? expects argument 1 to be a string"
-msgstr "contains? 的第一个参数应该是字符串"
-
-#: calendar/libedata-cal/e-cal-backend-sexp.c:291
+#: calendar/libedata-cal/e-cal-backend-sexp.c:296
 #, fuzzy, c-format
 msgid "\"%s\" expects the second argument to be a time_t"
 msgstr "time-add-day 的第一个参数应该是 time_t"
 
-#: calendar/libedata-cal/e-cal-backend-sexp.c:452
+#: calendar/libedata-cal/e-cal-backend-sexp.c:457
 #, fuzzy, c-format
 msgid "\"%s\" expects the second argument to be a string"
 msgstr "contains? 的第二个参数应该是字符串"
 
-#: calendar/libedata-cal/e-cal-backend-sexp.c:470
+#: calendar/libedata-cal/e-cal-backend-sexp.c:475
 #, fuzzy, c-format
 msgid ""
 "\"%s\" expects the first argument to be either \"any\", \"summary\", or "
 "\"description\""
 msgstr "contains? 的第一个参数必须是“任意”、“概要”、“描述”之一"
 
-#: calendar/libedata-cal/e-cal-backend-sexp.c:532
+#: calendar/libedata-cal/e-cal-backend-sexp.c:537
 #, fuzzy, c-format
 msgid "\"%s\" expects at least one argument"
 msgstr "has-categories? 至少需要 1 个参数"
 
-#: calendar/libedata-cal/e-cal-backend-sexp.c:546
+#: calendar/libedata-cal/e-cal-backend-sexp.c:551
 #, fuzzy, c-format
 msgid ""
 "\"%s\" expects all arguments to be strings or one and only one argument to "
@@ -918,7 +908,7 @@ msgstr "has-categories? 的所有参数都应该为字符串或者它唯一的�
 #. DESCRIPTION:
 #.
 #.
-#. $Id: zh_CN.po,v 1.8 2004/01/13 03:08:30 jpr Exp $
+#. $Id: zh_CN.po,v 1.9 2004/01/26 19:27:21 jpr Exp $
 #. $Locker:  $
 #.
 #. (C) COPYRIGHT 2001, Eric Busboom <eric@softwarestudio.org>
@@ -959,6 +949,14 @@ msgstr "Evolution 日历本地文件后端"
 #, fuzzy
 msgid "Evolution Addressbook file backend"
 msgstr "Evolution 地址簿本地文件后端"
+
+#, fuzzy
+#~ msgid "uid? expects 1 argument"
+#~ msgstr "make-time 需要 1 个参数"
+
+#, fuzzy
+#~ msgid "uid? expects argument 1 to be a string"
+#~ msgstr "contains? 的第一个参数应该是字符串"
 
 #~ msgid "time-now expects 0 arguments"
 #~ msgstr "time-now 需要 0 个参数"
