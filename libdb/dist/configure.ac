@@ -1,4 +1,4 @@
-# $Id: configure.ac,v 1.3 2003/11/25 23:30:21 toshok Exp $
+# $Id: configure.ac,v 1.4 2004/02/13 20:09:05 toshok Exp $
 # Process this file with autoconf to produce a configure script.
 
 PACKAGE=db
@@ -254,11 +254,10 @@ export CC CCC
 CCC=CXX
 
 # Libtool configuration.
-AC_DISABLE_SHARED
 AC_PROG_LIBTOOL
 
 LIBTOOL="\$(SHELL) ./libtool"
-SOFLAGS="-rpath \$(libdir)"
+SOFLAGS=""
 
 # Set SOSUFFIX and friends
 SOSUFFIX_CONFIG
@@ -274,21 +273,9 @@ MAKEFILE_CXX="\$(LIBTOOL) --mode=compile ${MAKEFILE_CXX}"
 MAKEFILE_XSOLINK="\$(LIBTOOL) --mode=link ${MAKEFILE_CXXLINK} -avoid-version"
 MAKEFILE_CXXLINK="\$(LIBTOOL) --mode=link ${MAKEFILE_CXXLINK}"
 
-# Configure for shared libraries, static libraries, or both.  If both are
-# configured, build the utilities and example programs with shared versions.
-#
-# $o is set to ".o" or ".lo", and is the file suffix used in the Makefile
-# instead of .o
-if test "$enable_shared" = "no"; then
-	DEFAULT_LIB="\$(libdb)"
-	POSTLINK="@true"
-	o=".o"
-fi
-if test "$enable_shared" = "yes"; then
-	DEFAULT_LIB="\$(libso_target)"
-	POSTLINK="\$(LIBTOOL) --mode=execute true"
-	o=".lo"
-fi
+DEFAULT_LIB="\$(libso_target)"
+POSTLINK="\$(LIBTOOL) --mode=execute true"
+o=".lo"
 INSTALL_LIBS="$DEFAULT_LIB"
 
 # Optional C++ API.
