@@ -6,12 +6,12 @@
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 2001.
 # Johan Dahlin <zilch.am@home.se>, 2001.
 #
-# $Id: sv.po,v 1.5 2003/12/08 00:53:24 jpr Exp $
+# $Id: sv.po,v 1.6 2003/12/08 01:38:26 jpr Exp $
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: evolution\n"
-"POT-Creation-Date: 2003-12-07 19:15-0500\n"
+"POT-Creation-Date: 2003-12-07 20:33-0500\n"
 "PO-Revision-Date: 2003-06-20 23:28+0200\n"
 "Last-Translator: Christian Rose <menthos@menthos.com>\n"
 "Language-Team: Swedish <sv@li.org>\n"
