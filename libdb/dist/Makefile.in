@@ -1,4 +1,4 @@
-# $Id: Makefile.in,v 1.2 2003/11/25 22:29:37 toshok Exp $
+# $Id: Makefile.in,v 1.3 2003/12/07 19:39:08 toshok Exp $
 
 srcdir=	@srcdir@/..
 builddir=.
@@ -403,7 +403,7 @@ LIB_INSTALL_FILE_LIST=\
 ##################################################
 all: @BUILD_TARGET@
 
-install-strip install:
+install-strip install: all
 	@echo "installation of embedded libdb has been disabled"
 
 ##################################################
