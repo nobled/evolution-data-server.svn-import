@@ -1,4 +1,4 @@
-# $Id: options.ac,v 1.2 2004/07/12 18:16:04 toshok Exp $
+# $Id: options.ac,v 1.3 2004/09/21 22:39:33 hansp Exp $
 
 # Process user-specified options.
 AC_DEFUN(AM_OPTIONS_SET, [
@@ -66,6 +66,16 @@ AC_ARG_ENABLE(java,
 			[Build Java API.])],
 	[db_cv_java="$enable_java"], [db_cv_java="no"])
 AC_MSG_RESULT($db_cv_java)
+
+AC_MSG_CHECKING(if --enable-pthreadsmutexes option specified)
+AC_ARG_ENABLE(pthreadsmutexes,
+	AC_HELP_STRING([--enable-pthreadsmutexes],
+	    [Use POSIX pthreads mutexes.]),, enableval="no")
+db_cv_pthreadsmutexes="$enableval"
+case "$enableval" in
+ no) AC_MSG_RESULT(yes);;
+yes) AC_MSG_RESULT(no);;
+esac
 
 AC_MSG_CHECKING(if --enable-posixmutexes option specified)
 AC_ARG_ENABLE(posixmutexes,
