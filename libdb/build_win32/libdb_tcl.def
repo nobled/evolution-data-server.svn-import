@@ -1,0 +1,6 @@
+; $Id: libdb_tcl.def,v 1.1 2003/11/20 22:13:10 toshok Exp $
+
+DESCRIPTION     'Berkeley DB TCL interface Library'
+EXPORTS
+	Db_tcl_Init
+	_NameToPtr
