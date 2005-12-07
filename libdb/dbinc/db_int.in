@@ -4,7 +4,7 @@
  * Copyright (c) 1996-2002
  *	Sleepycat Software.  All rights reserved.
  *
- * $Id: db_int.in,v 1.1 2003/11/20 22:13:17 toshok Exp $
+ * $Id: db_int.in,v 1.2 2005/12/07 04:12:27 tml Exp $
  */
 
 #ifndef _DB_INTERNAL_H_
@@ -187,7 +187,11 @@ typedef struct __fn {
 #define	MAXPATHLEN	1024
 
 #define	PATH_DOT	"."	/* Current working directory. */
+#ifdef _WIN32
+#define	PATH_SEPARATOR	"\\/:"	/* Path separator character(s). */
+#else
 #define	PATH_SEPARATOR	"/"	/* Path separator character(s). */
+#endif
 
 /*
  * Flags understood by __os_open.
